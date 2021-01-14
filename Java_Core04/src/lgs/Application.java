@@ -3,16 +3,16 @@ package lgs;
 public class Application {
 	public static void main(String[] args) {
 
-		Robot R = new Robot("I Robot - я просто працюю!");
+		Robot R = new Robot("I Robot - СЏ РїСЂРѕСЃС‚Рѕ РїСЂР°С†СЋСЋ!");
 		//System.out.println(R);
 
-		Robot Coffe = new Robot("I CoffeRobot - я варю каву!");
+		Robot Coffe = new Robot("I CoffeRobot - СЏ РІР°СЂСЋ РєР°РІСѓ!");
 		//System.out.println(Coffe);
 
-		Robot Dancer = new Robot("I RobotDancer - я просто танцюю! ");
+		Robot Dancer = new Robot("I RobotDancer - СЏ РїСЂРѕСЃС‚Рѕ С‚Р°РЅС†СЋСЋ! ");
 		//System.out.println(Dancer);
 
-		Robot Coocker = new Robot("I RobotCoocker - я просто готую! ");
+		Robot Coocker = new Robot("I RobotCoocker - СЏ РїСЂРѕСЃС‚Рѕ РіРѕС‚СѓСЋ! ");
 		//System.out.println(Coocker);
 
 		System.out.println("Array");
@@ -35,12 +35,12 @@ public class Application {
 		
 		Animal a = new Animal("Caty", 30, 8);
 
-		System.out.print("Name = " + a.getName());
-		System.out.print(", Age = " + a.getAge());
-		System.out.print(", Speed = " + a.getSpeed());
+		System.out.print("РќР°Р·РІР° С‚РІР°СЂРёРЅРё = " + a.getName());
+		System.out.print(", Р’С–Рє С‚РІР°СЂРёРЅРё = " + a.getAge());
+		System.out.print(", РЁРІРёРґРєС–СЃС‚СЊ С‚РІР°СЂРёРЅРё = " + a.getSpeed());
 		System.out.println("!!!!");
 
-		a.setName("Бик");
+		a.setName("Р‘РёРє");
 		a.setSpeed(2);
 		a.setAge(14);
 
